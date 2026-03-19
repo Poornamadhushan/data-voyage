@@ -17,6 +17,7 @@ public/uploads/
 # Secrets
 .env
 .env.*
+!.env.example
 
 # OS / editor
 .DS_Store
@@ -28,4 +29,8 @@ Thumbs.db
 !data/.gitkeep
 !public/uploads/**/.gitkeep
 !public/uploads/.gitkeep
+
+# Local SSH key created for GitHub push (do not commit)
+dv_ssh_key
+dv_ssh_key.pub
 
