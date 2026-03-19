@@ -1,0 +1,8 @@
+node_modules
+.git
+data/datavoyage.db*
+data/sessions.db*
+public/uploads
+.env
+.env.*
+

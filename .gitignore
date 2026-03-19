@@ -1,0 +1,31 @@
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# SQLite + session state (generated / runtime)
+data/
+data/*.db
+data/*.db-*
+
+# User uploads (generated / runtime)
+public/uploads/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep placeholder files for empty dirs (if present)
+!data/.gitkeep
+!public/uploads/**/.gitkeep
+!public/uploads/.gitkeep
+
